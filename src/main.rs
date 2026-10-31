@@ -24,7 +24,7 @@ use gtk::prelude::*;
 
 use window::ImageWindow;
 
-const APP_ID: &str = "org.neuronix.GtkImage";
+const APP_ID: &str = "org.hyprcore.GtkImage";
 
 fn main() -> glib::ExitCode {
     let app = gtk::Application::builder()
